@@ -1,6 +1,7 @@
 import { getStore } from '@netlify/blobs';
 import crypto from 'node:crypto';
-import seedData from './seed-data.mjs';
+
+const seedData = {};
 
 const authStore = getStore({ name: 'mapka-auth', consistency: 'strong' });
 const mapsStore = getStore({ name: 'mapka-maps', consistency: 'strong' });
