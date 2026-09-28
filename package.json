@@ -1,0 +1,16 @@
+{
+  "name": "mapa-netlify",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx netlify dev",
+    "check": "node --check netlify/functions/api.mjs"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^11.1.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
