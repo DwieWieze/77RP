@@ -1,2 +1,1 @@
-export default JSON.parse('{}
-');
+export default {};
